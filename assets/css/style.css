@@ -1,8 +1,16 @@
 ---
 ---
 
-@import 'jekyll-theme-hacker';
+@import "{{ site.theme }}";
+
+footer {
+  display: none !important;
+}
 
 header {
   display: none;
+}
+
+.btn {
+  display: none !important;
 }
