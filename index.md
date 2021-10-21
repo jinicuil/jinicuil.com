@@ -1,24 +1,29 @@
 # Consultoría
-*   Seguridad en la Nube
-*   Seguridad de datos
-*   Firewall / IPS / IDS
-*   Administración de incidentes
-*   Monitoreo de seguridad de red / IDS / IPS / HIDS
-*   Evaluación y consulta de seguridad
-*   Capacitación y concienciación sobre seguridad
-*   Supervisión y gestión de eventos de seguridad
-*   Seguridad del sistema y endpoints
-*   Gestión de vulnerabilidades
-*   Cumplimiento de normas de seguridad (PCIDSS, ISO27001)
+*   Diagnóstico y solución de problemas de red
+*   Infraestructura
+*   Redes de voz y datos
+*   Redes inalámbricas
+*   Tecnología SDN
+*   UTM y firewalls
+*   Servicios de red (DNS, DHCP, Active Directory, Proxy web, FTP, NAS, VPN, PBX)
+*   Sistemas operativos (Windows Server, Linux, FreeBSD)
 
 # Servicios
--   Escaneos de vulnerabilidades externos e internos.
--   Pruebas de penetración (Caja negra, caja blanca, caja gris) externas e internas a:
-    -   Aplicaciones WEB (sitios, API, frontend, backend entre otros)
-    -   Infraestructura de red y servidores
-    -   Aplicaciones móviles
--   Evaluación de estado interno de la seguridad y mejores prácticas
--   Capacitación en desarrollo seguro
+-   Instalación de redes de voz y datos
+-   Instalación de redes inalámbricas
+-   Instalación de servidores
+-   Cableado estructurado
+
+# Cursos y capacitación
+-   Capacitación en TI
+-   Desarrollo seguro
+-   Introducción a AWS
+-   Capacitación en herramientas DevOps
+-   Infraestructura como código (IaC - Terraform)
+-   Solucion de problemas de red con Wireshark
+-   GNS3 - Simulacion de redes
 
 # Contacto
 contacto@jinicuil.digital
+Cancun, Quintana Roo
+Venus #2
