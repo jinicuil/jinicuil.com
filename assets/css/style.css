@@ -3,14 +3,6 @@
 
 @import "{{ site.theme }}";
 
-footer {
-  display: none !important;
-}
-
-header {
-  display: none;
-}
-
-.btn {
+section #downloads {
   display: none !important;
 }
