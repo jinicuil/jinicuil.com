@@ -7,5 +7,3 @@ layout: service
 ---
 
 Instalación de redes de voz y datos, certificadas bajo los estándares del cableado estructurado.
-
-![Redes de voz y datos](/images/austin-distel-nGc5RT2HmF0-unsplash.jpg)
