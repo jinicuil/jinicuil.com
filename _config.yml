@@ -1,7 +1,52 @@
-remote_theme: pages-themes/hacker@v0.2.0
-plugins:
-- jekyll-remote-theme
+baseurl: '/'
+permalink: pretty
+title: 'Jinicuil Consultoría Digital'
 
-title: Jinicuil Consultoría Digital
-description: Soluciones de infraestructura, redes y ciberseguridad
-theme: jinicuil
+google_analytics_id: ""
+
+homepage:
+  show_call_box: true
+
+logo:
+  mobile: "images/logo/logo-mobile.svg"
+  desktop: "images/logo/logo.svg"
+  desktop_height: "36px"
+
+footer:
+  copyright_text: 'Free Jekyll theme by <a class="zerostatic" href="https://www.zerostatic.io">www.zerostatic.io</a>'
+
+seo:
+  meta_og_title: "Jinicuil Consultoría Digital"
+  meta_og_type: "website"
+  meta_og_url: "https://jinicuil.digital"
+  meta_og_image: "https://raw.githubusercontent.com/zerostaticthemes/jekyll-serif-theme/master/screenshots/tn.png"
+  meta_og_description: "Jinicuil Consultoria Digital brinda soluciones tecnologicas a los retos empresariales"
+  meta_twitter_card: "summary"
+  meta_twitter_site: "@jinicuil"
+  meta_twitter_creator: "@jinicuil"
+
+collections:
+  services:
+    output: true
+  team:
+    output: false
+
+sass:
+  indentWidth: 4
+  style: compact # possible values: nested expanded compact compressed
+  precision: 10
+
+plugins:
+  - jekyll-environment-variables
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - LICENSE.md
+  - LICENSE
+  - README.md
