@@ -1,0 +1,136 @@
+/* ========================================================================================== */
+/*  Project: WebDMS
+/*  Author: Digital Experience
+/*  Date: Wed Nov 29 2023 19:07:53 GMT+0000 (Coordinated Universal Time)
+/*  
+/*  Copyright Â© 2023 Red Hat, Inc.
+/*  https://www.redhat.com
+/* ========================================================================================== */
+/* header.main-header {
+    margin-bottom: 0
+} */
+
+.home-hero {
+    padding-bottom: 5rem;
+}
+
+.home-hero-h1 {
+    font-size: 42px;
+}
+.font-weight-medium {
+    font-weight: 500
+}
+
+.descriptive-text {
+    overflow: hidden;
+    position: absolute;
+    left: -99999px
+}
+
+.rosa-cc-hero {
+    background-color: #feeded;
+    background-size: auto 100%;
+}
+
+.rosa-cc-hero .hero-img {
+    width: 100%;
+    /* height: auto */
+}
+
+
+.border-radius-10 {
+    border-radius: 10px
+}
+
+.accent-cloud {
+    position: absolute;
+    z-index: -1;
+    left: 0;
+    bottom: 130px
+}
+
+.customer-logo img {
+    max-height: 25px;
+    transition: .25s;
+    opacity: .75;
+    -webkit-filter: grayscale(100%);
+    filter: grayscale(100%)
+}
+
+.customer-logo img:hover {
+    opacity: 1;
+    -webkit-filter: none;
+    filter: none
+}
+
+.z-index-0 {
+    z-index: 0
+}
+
+span.underline {
+    position: relative;
+    z-index: 0
+}
+
+span.underline::after {
+    content: "";
+    position: absolute;
+    bottom: -.125rem;
+    left: -.5rem;
+    right: -.5rem;
+    height: .75rem;
+    z-index: -1;
+    background-image: url(https://www.redhat.com/rhdc/managed-files/underline.svg);
+    background-repeat: no-repeat;
+    background-size: cover
+}
+
+.accent-bar {
+    border-left: 8px solid #e00
+}
+
+@media (min-width: 768px) {
+    .accent-cloud {
+        bottom:60px
+    }
+
+    .customer-logo img {
+        max-height: 35px
+    }
+}
+
+@media (min-width: 1200px) {
+    .accent-cloud {
+        bottom:130px
+    }
+}
+
+@media (min-width: 1400px) {
+    .container,.container-lg,.container-md,.container-sm,.container-xl,.container-xxl {
+        max-width:1320px
+    }
+}
+
+@media (max-width: 991.98px) {
+    .tech-topic {
+        border:0!important
+    }
+}
+
+@media (max-width: 450px) {
+    .rosa-cc-hero .logo-block .aws {
+        height:35px!important
+    }
+
+    .rosa-cc-hero .logo-block .azure {
+        height: 30px!important
+    }
+
+    .rosa-cc-hero .logo-block .google {
+        height: 25px!important
+    }
+
+    .rosa-cc-hero .logo-block .ibm {
+        height: 45px!important
+    }
+}
