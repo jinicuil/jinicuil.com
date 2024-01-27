@@ -14,6 +14,12 @@
     }
 }
 
+@media (max-width: 768px) {
+    .container__cards{
+        margin-top: 1rem;
+    }
+}
+
 .card{
     width: 340px;
     margin: 15px;
