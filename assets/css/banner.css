@@ -1,0 +1,62 @@
+.banner {
+	display: flex;
+	align-items: center;
+	padding-top: 120px;
+	padding-bottom: 120px;
+	width: 100%;
+	min-height: 70vh;
+	place-items: center;
+	background-position: center center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-image: linear-gradient(
+		to right,
+		rgba(0, 0, 0, 0.5),
+		rgba(0, 0, 0, 0.5)
+	   ),url(https://cdn.glitch.global/d2f60e58-9efe-4a05-bb88-fd4999848107/telecom2.jpg?v=1706334110328);
+	   background-attachment: fixed;
+}
+
+.banner-container {
+	padding: 1rem;
+	max-width: 1400px;
+	display: flex;
+	flex-direction: column;
+	gap: 1.5rem;
+}
+
+
+.banner-text {
+	text-align: center;
+	color: var(--bg-color);
+}
+
+@media (max-width: 768px) {
+	.banner {
+		display: none;
+	}
+}
+
+@media (min-width: 1024px) {
+	.banner {
+		padding-top: 200px;
+		padding-bottom: 200px;
+	}
+}
+
+
+.module {
+    padding: var(--module-padding-top,var(--module-padding)) 0 var(--module-padding) 0
+}
+
+.align--center {
+    text-align: center!important
+}
+
+.align--left {
+    text-align: left!important
+}
+
+.align--right {
+    text-align: right!important
+}
